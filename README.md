@@ -10,12 +10,12 @@ Bitgrit has partnered with SoftBank to host a competition for forecasting future
     ● Created an algorithm to forecast future
 exchange rates on the basis of historic exchange
 data released by Softbank.
-  ● Dataset consists of 360 features along with
-several NaN values.
-  ● Best accuracy was obtained by filling NaN
+    ● Dataset consists of 360 features along with
+several NaN values. 
+    ● Best accuracy was obtained by filling NaN
 values with the nearest row value (by distance)
 in its column.
-  ● Trained on Catboost and achieved an accuracy
+    ● Trained on Catboost and achieved an accuracy
 of 97% upon tuning parameters and
 ensembling the best submissions.
 
